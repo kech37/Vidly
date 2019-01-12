@@ -15,6 +15,6 @@ namespace Vidly.Models
 
         public MembershipType MembershipType { get; set; }
 
-        public byte MembershipTypId { get; set; }
+        //public byte MembershipTypId { get; set; }
     }
 }
