@@ -201,6 +201,14 @@
     <Compile Include="Migrations\201901122152427_RemoveMembershipTypIdOnCustomerTable.Designer.cs">
       <DependentUpon>201901122152427_RemoveMembershipTypIdOnCustomerTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901122157049_addMembershipTypeId.cs" />
+    <Compile Include="Migrations\201901122157049_addMembershipTypeId.Designer.cs">
+      <DependentUpon>201901122157049_addMembershipTypeId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901122158492_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201901122158492_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201901122158492_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -306,6 +314,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901122152427_RemoveMembershipTypIdOnCustomerTable.resx">
       <DependentUpon>201901122152427_RemoveMembershipTypIdOnCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901122157049_addMembershipTypeId.resx">
+      <DependentUpon>201901122157049_addMembershipTypeId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901122158492_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>201901122158492_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
