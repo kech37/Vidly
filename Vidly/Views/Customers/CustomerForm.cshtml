@@ -24,6 +24,7 @@
             "Select Membership Type",
             new { @class = "form-control" }
             )
+        @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
     </div>
     <div class="checkbox">
         <label>
